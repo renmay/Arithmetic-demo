@@ -5,16 +5,16 @@
 // What is the largest prime factor of the number 600851475143
 
 //  判断是否是回文数
-// function isPalindrome(product) {
-// 	product = product.toString()
-// 	result = product.split('').reverse().join('')
-// 	console.log(result)
-// 	product = parseInt(product)
-// 	result = parseInt(result)
-// 	if(product == result){
-// 		console.log("你是回文数吧")
-// 	}
-// }
+function isPalindrome(product) {
+	product = product.toString()
+	reverse = product.split('').reverse().join('')
+	console.log(reverse)
+	product = parseInt(product)
+	reverse = parseInt(reverse)
+	if(product == reverse){
+		console.log("你是回文数吧")
+	}
+}
 
 // 判断某个范围内的回文数
 var temp = []
