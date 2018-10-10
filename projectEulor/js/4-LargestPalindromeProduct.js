@@ -6,11 +6,11 @@
 
 //  判断是否是回文数
 function isPalindrome(product) {
-	product = product.toString()
-	reverse = product.split('').reverse().join('')
+	var product = product.toString()
+	var reverse = product.split('').reverse().join('')
 	console.log(reverse)
-	product = parseInt(product)
-	reverse = parseInt(reverse)
+	var product = parseInt(product)
+	var reverse = parseInt(reverse)
 	if(product == reverse){
 		console.log("你是回文数吧")
 	}
@@ -21,11 +21,11 @@ var temp = []
 var result = 0
 for(var i = 100;i<1000;i++){
 	for (var j = 100; j < 1000; j++) {
-		product = i * j
-		product = product.toString()
-		reverse = product.split('').reverse().join('')
-		product = parseInt(product)
-		reverse = parseInt(reverse)
+		var product = i * j
+		var product = product.toString()
+		var reverse = product.split('').reverse().join('')
+		var product = parseInt(product)
+		var reverse = parseInt(reverse)
 		if(product == reverse){
 			if(product > result){
 				result = product
